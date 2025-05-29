@@ -1,0 +1,12 @@
+部署方法：
+
+
+django-admin.exe startproject first_try
+
+cd .\first_try\
+
+#创建一个app模块
+python manage.py startapp main_app
+
+#运行服务器
+python .\manage.py runserver 3300
